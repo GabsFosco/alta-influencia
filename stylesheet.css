@@ -2,19 +2,46 @@ body {
     font-family: 'Quicksand', sans-serif;
     color: #fff;
     background-color: #353a41;
+    margin: -5px auto;
+}
+
+h1 {
+    font-size: 17px;
+    font-weight: 100;
+    letter-spacing: 1px;
 }
 
 #header {
     display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 55px;
+    width: 100%;
+    border-bottom: 2px solid #656e7c;
     background-image: linear-gradient(
         to bottom,
-        rgba(7,8,10,.8),
-        rgba(7,8,10,0)
-    ); 
+        #12151a,
+        #353a41
+    );
+}
+
+#titulo {
+    display: inline-block;
+    margin: 10px auto 10px 110px;
+}
+
+#nav-header {
+    float: right;
+    margin: 0 130px 0 0;
 }
 
 #nav-header ul li {
     display: inline-block;
+    font-size: 12px;
+    padding: 20px 15px 10px 15px;
+    margin: -18px -4px 0px 0px;
+    
 }
 
 .header-borda {
@@ -25,4 +52,11 @@ body {
         rgba(220,220,220,.6),
         rgba(220,220,220,0)
     )0 0 0 1;
+}
+
+#intro1 {
+    display: block;
+    width: 400px;
+    height: 800px;
+    margin: 160px 0 0 70px;
 }
