@@ -2,7 +2,6 @@ body {
     font-family: 'Quicksand', sans-serif;
     color: #fff;
     margin: -5px auto;
-    padding: 160px 70px 30px 90px;
     background-color: #353a41;
     letter-spacing: 1px;
     line-height: 175%;
@@ -13,12 +12,11 @@ h1 {
     font-weight: 100;
 }
 
-.header {
+header {
     display: inline-block;
     position: fixed;
     top: 0;
-    left: 0;
-    height: 55px;
+    height: 50px;
     width: 100%;
     border-bottom: 2px solid #656e7c;
     background-image: linear-gradient(
@@ -30,25 +28,24 @@ h1 {
 
 #titulo {
     display: inline-block;
-    margin: 7px auto 10px 40px;
+    margin: 12px auto 0 40px;
 }
 
-.nav-header {
+#nav-header {
     float: right;
     margin: -6px 40px 0 0;
 }
 
-.nav-header ul li {
+#nav-header a {
     display: inline-block;
     font-size: 12px;
     letter-spacing: 0px;
-    padding: 17px 15px 10px 15px;
-    margin: -28px -4px 0px 0px;
+    padding: 17px 15px 5px 15px;
+    margin: -2px -4px 0 0;
 }
 
 .header-borda {
-    border-width: 2px;
-    border-style: solid;
+    border: 2px solid;
     border-image: linear-gradient(
         to bottom,
         rgba(220,220,220,.6),
@@ -60,6 +57,7 @@ h1 {
     display: block;
     width: 420px;
     font-size: 20px;
+    margin: 140px 0 0 90px;
 }
 
 #passos1 {
@@ -67,11 +65,7 @@ h1 {
     font-size: 100px;
     font-weight: 600;
     color: #f15742;
-    margin: 55px 0 0 40px;
-    border-image: solid(
-        rgba(220,220,220,.6),
-        rgba(220,220,220,0)
-    )0 0 0 1;
+    margin: 55px 0 0 110px;
 }
 
 #passos2 {
@@ -89,7 +83,21 @@ h1 {
     display: inline-block;
     border-right: 1px solid #f15742;
     border-bottom: 1px solid #f15742;
-    margin: 25px 0 0 -106px;
+    margin: 26px 0 0 -106px;
+}
+
+footer {
+    display: block;
+    position: absolute;
+    background: #191b1e;
+    font-size: 15px;
+    height: 90px;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-link {
+    font-size: 12px;
 }
 
 @media (max-width: 768px) {
