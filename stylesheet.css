@@ -54,10 +54,14 @@ header {
 }
 
 #intro {
+    
+}
+
+#apresentacao {
     display: block;
     width: 420px;
     font-size: 20px;
-    margin: 140px 0 0 90px;
+    margin: 150px 0 0 90px;
 }
 
 #passos1 {
@@ -86,9 +90,38 @@ header {
     margin: 26px 0 0 -106px;
 }
 
+#descer {
+    letter-spacing: 3px;
+    text-align: center;
+    width: 140px;
+    margin: 50px auto 0 auto;
+}
+
+.seta-desce {
+    height: 0px;
+    width: 0px;
+    position: relative;
+    margin: 7px auto auto -4px;
+    border: 4px solid;
+	border-color: 
+		#737e8b
+		#737e8b
+		transparent
+		transparent;
+	transform: rotate(135deg);
+}
+
+.seta-desce-esq {
+    float: left;
+}
+
+.seta-desce-dir {
+    float: right;
+}
+
 footer {
     display: block;
-    position: absolute;
+    position: relative;
     background: #191b1e;
     font-size: 15px;
     height: 90px;
